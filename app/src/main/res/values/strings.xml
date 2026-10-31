@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="hint_contact">Sélectionnez un contact à modifier</string>
+    <string name="btn_modifier">Modifier</string>
+    <string name="msg_aucune_selection">Sélectionnez d\'abord un contact</string>
+    <string name="msg_nom_vide">Le nom ne peut pas être vide</string>
+    <string name="msg_contact_modifie">Contact modifié : %1$s</string>
+</resources>
