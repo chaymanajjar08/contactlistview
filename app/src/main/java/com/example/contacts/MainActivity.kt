@@ -11,14 +11,14 @@ import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     private val contacts = mutableListOf(
-        "Sara Lafi",
+        "Chayma Najjar",
         "Ines Lanouar",
-        "Mohamed Souie",
+        "Mohamed BenMimoun",
         "Nadia Jaziri",
         "Aymen Mansour",
         "Amira Chaabane",
         "Karim Bacouche",
-        "Nour Hammami"
+        "Nour Abri"
     )
 
     private lateinit var adapter: ArrayAdapter<String>
