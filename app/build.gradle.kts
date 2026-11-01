@@ -36,4 +36,5 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.7.0")
 }
 
-layout.buildDirectory.set(layout.projectDirectory.dir("build-local"))
+// Conserver les fichiers générés hors du dossier synchronisé OneDrive.
+layout.buildDirectory.set(file("${System.getProperty("user.home")}/.android-builds/ContactsListView/app"))
